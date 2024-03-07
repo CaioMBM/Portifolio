@@ -1,3 +1,9 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .flex-container{
     height: 450px;
     display: flex;
