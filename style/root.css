@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap');
+
+:root{
+    /* FONTE */
+    --fonte: "Stoke", serif;
+
+
+    /* CORES */
+    --site-fundo: #040F11;
+    --site-titulo-subtitulo: #E9431F;
+    --site-paragrafo: #FFF;
+
+    --navbar-fundo: #071A1E;
+    --navbar-sublinhado: #AD3131;
+
+    --sobremim-card: #A01313;
+    --sobremim-titulo: #000;
+
+    --footer-titulo-subtitulo-link-icon: #FFF;
+    --footer-gmail-hover: #DD0D00;
+    --footer-whatsapp-hover: #04DD00;
+    --footer-linkedin-hover: #0080DD;
+    --footer-github-hover: #818181;
+}
