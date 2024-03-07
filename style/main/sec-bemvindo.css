@@ -1,5 +1,5 @@
 .flex-container{
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +28,9 @@
 
 #sec-bem-vindo-text a:hover{
     text-decoration: underline;
+}
+
+#sec-bem-vindo-img img{
+    width: 320px;
+    height: 350px;
 }
