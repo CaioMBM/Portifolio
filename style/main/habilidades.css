@@ -1,0 +1,59 @@
+#sec-habilidade{
+    width: 700px;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1#hab-titulo{
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-titulo-subtitulo);
+}
+
+h2.hab-subtitulo{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-titulo-subtitulo);
+}
+
+div#hab-linguagens{
+    display: flex;
+    gap: 30px;
+}
+
+.hab-nome{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-paragrafo);
+}
+
+img.hab-img{
+    width: 80px;
+    height: 70px;
+}
+
+#fram-prot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#fram-prot > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#figma{
+    width: 50px;
+    height: 70px;
+}
