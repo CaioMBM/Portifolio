@@ -1,0 +1,31 @@
+.flex-container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#sec-bem-vindo-text{
+    width: 240px;
+}
+
+#sec-bem-vindo-text h2{
+    font-size: 40px;
+    color: var(--site-titulo-subtitulo);
+    font-weight: bold;
+}
+
+#sec-bem-vindo-text p{
+    font-size: 20px;
+    color: var(--site-paragrafo);
+}
+
+#sec-bem-vindo-text a{
+    color: var(--main-bemvindo-link);
+    text-decoration: none;
+}
+
+#sec-bem-vindo-text a:hover{
+    text-decoration: underline;
+}
