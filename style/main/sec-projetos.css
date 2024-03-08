@@ -1,7 +1,18 @@
 #sec-projetos h1{
+    /* text-align: center; */
+    /* border-bottom: 1px solid var(--main-titulo-subtitulo); */
+    
+}
+
+#proj-container-h1{
+    display: flex;
+    justify-content: center;
+}
+
+#proj-container-h1 > h1{
     margin: 40px 0 30px 0;
     font-size: 35px;
-    text-align: center;
+    border-bottom: 3px solid var(--main-titulo-subtitulo);
     text-transform: uppercase;
     color: var(--main-titulo-subtitulo);
 }
