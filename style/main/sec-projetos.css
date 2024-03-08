@@ -1,9 +1,3 @@
-#sec-projetos h1{
-    /* text-align: center; */
-    /* border-bottom: 1px solid var(--main-titulo-subtitulo); */
-    
-}
-
 #proj-container-h1{
     display: flex;
     justify-content: center;

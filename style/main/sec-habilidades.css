@@ -12,6 +12,7 @@ h1#hab-titulo{
     text-align: center;
     text-transform: uppercase;
     color: var(--main-titulo-subtitulo);
+    border-bottom: 3px solid var(--main-titulo-subtitulo);
 }
 
 h2.hab-subtitulo{
