@@ -1,0 +1,32 @@
+/* Caixa vermelha */
+#sobremim-container{
+    width: 620px;
+    margin: 200px 0 90px 0;
+    padding: 40px 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    border-radius: 20px;
+    background-color: var(--sobremim-card);
+}
+
+/* Caixa do título */
+#sec-sobremim h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid ;
+    color: var(--site-paragrafo);
+}
+
+/* Caixa do parágrafo */
+#sec-sobremim p{
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: justify;
+    color: var(--site-paragrafo);
+}
