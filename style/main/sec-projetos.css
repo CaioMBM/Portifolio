@@ -1,0 +1,23 @@
+#sec-projetos h1{
+    margin: 40px 0 30px 0;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-titulo-subtitulo);
+}
+
+.row{
+    gap: 40px;
+}
+
+#sec-projetos img{
+    width: 190px;
+    height: 224px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#sec-projetos p{
+    font-size: 15px;
+    color: var(--site-paragrafo);
+}
