@@ -14,7 +14,6 @@ section#footer-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 svg{
@@ -57,14 +56,27 @@ svg{
 
 
 /* Linha divisória */
-/* #footer-linha-divisoria{
+#footer-linha-divisoria{
     height: 1px;
     width: 100%;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     background-color: #fff;
-} */
+}
 
 
 /* Depois da linha divisória */
+span#footer-criador{
+    color: var(--footer-titulo-subtitulo-link-icon);
+}
 
+span#footer-criador a{
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--footer-titulo-subtitulo-link-icon);
+}
+
+span#footer-criador a:hover{
+    text-decoration: underline;
+}
