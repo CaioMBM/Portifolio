@@ -34,6 +34,7 @@ svg{
     color: var(--footer-titulo-subtitulo-link-icon);
 }
 
+
 .footer-content a{
     text-decoration: none;
     font-size: 12px;
@@ -42,8 +43,8 @@ svg{
 }
 
 .footer-content a:hover{
-        color: rgb(142, 142, 142);
-    }
+    color: rgb(142, 142, 142);
+}
 
 .footer-content svg{
     margin-right: 5px;
@@ -51,8 +52,9 @@ svg{
 }
 
 .footer-content svg:hover{
-    fill: rgb(142, 142, 142);;
+    fill: rgb(142, 142, 142);
 }
+
 
 
 /* Linha divisória */
@@ -63,6 +65,7 @@ svg{
     margin-bottom: 30px;
     background-color: #fff;
 }
+
 
 
 /* Depois da linha divisória */
