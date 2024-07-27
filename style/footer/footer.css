@@ -1,10 +1,10 @@
 footer{
-    height: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+    padding: 50px 0 20px 0;
     background-color: var(--footer-fundo);
 }
 
@@ -74,7 +74,7 @@ span#footer-criador{
 }
 
 span#footer-criador a{
-    margin-left: 10px;
+    margin-left: 2px;
     font-weight: bold;
     text-decoration: none;
     color: var(--footer-titulo-subtitulo-link-icon);
