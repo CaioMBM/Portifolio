@@ -9,21 +9,22 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 200px;
 }
 
 #sec-bem-vindo-text{
-    width: 240px;
+    width: 300px;
 }
 
-#sec-bem-vindo-text h2{
-    font-size: 40px;
+#sec-bem-vindo-text h1{
+    margin-bottom: 20px;
+    font-size: 60px;
     color: var(--site-titulo-subtitulo);
     font-weight: bold;
 }
 
 #sec-bem-vindo-text p{
-    font-size: 20px;
+    font-size: 25px;
     color: var(--site-paragrafo);
 }
 
