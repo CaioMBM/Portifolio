@@ -5,11 +5,11 @@ main{
 }
 
 .flex-container{
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 200px;
+    padding-top: 60px;
 }
 
 #sec-bem-vindo-text{

@@ -1,7 +1,7 @@
 /* Caixa vermelha */
 #sobremim-container{
     width: 620px;
-    margin: 200px 0 90px 0;
+    margin-bottom: 90px;
     padding: 40px 35px;
 
     display: flex;
