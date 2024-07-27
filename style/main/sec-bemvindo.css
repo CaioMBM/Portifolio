@@ -39,5 +39,7 @@ main{
 
 #sec-bem-vindo-img img{
     width: 320px;
-    height: 350px;
+    height: 320px;
+    border-radius: 50%;
+    border: 3px solid rgba(229, 8, 8, 0.649);
 }
