@@ -27,10 +27,15 @@ div#hab-linguagens{
     gap: 30px;
 }
 
+div#hab-linguagens div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hab-nome{
     margin-top: 15px;
     margin-bottom: 5px;
-    text-align: center;
     text-transform: uppercase;
     color: var(--main-paragrafo);
 }
