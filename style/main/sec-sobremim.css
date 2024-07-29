@@ -1,3 +1,11 @@
+#sec-sobremim::before {
+    content: '';
+    display: block;
+    height: 50px; /* Altura da margem desejada */
+     /* Altura da margem desejada negativa */
+    visibility: hidden;
+}
+
 /* Caixa vermelha */
 #sobremim-container{
     width: 620px;
