@@ -10,14 +10,14 @@ footer{
 
 section#footer-container{
     width: 700px;
-    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-svg{
+.icon{
     width: 10px;
+    color: #fff;
 }
 
 /* Antes da linha divisória */
@@ -34,25 +34,24 @@ svg{
     color: var(--footer-titulo-subtitulo-link-icon);
 }
 
+.engloba{
+    margin-bottom: 10px;
+}
 
-.footer-content a{
+.engloba a{
     text-decoration: none;
     font-size: 12px;
     letter-spacing: 1.5px;
     color: var(--footer-titulo-subtitulo-link-icon);
 }
 
-.footer-content a:hover{
+.engloba a:hover, .icon:hover{
     color: rgb(142, 142, 142);
 }
 
-.footer-content svg{
+.icon{
     margin-right: 5px;
     fill: var(--footer-titulo-subtitulo-link-icon);
-}
-
-.footer-content svg:hover{
-    fill: rgb(142, 142, 142);
 }
 
 
