@@ -45,7 +45,17 @@
 @media only screen and (min-width: 390px) and (max-width: 458px) {}
 
 @media only screen and (min-width: 459px) and (max-width: 598px) {
-    
+    .nav-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .nav-container ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (min-width: 599px) and (max-width: 766px) {
