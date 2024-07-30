@@ -27,7 +27,7 @@
 .nav-container a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     font-family: var(--fonte);
     color: var(--nav-link);
     transition: .3s;
@@ -35,4 +35,34 @@
 
 .nav-container a:hover{
     color:var(--nav-link-hover);
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 389px) {}
+
+@media only screen and (min-width: 390px) and (max-width: 458px) {}
+
+@media only screen and (min-width: 459px) and (max-width: 598px) {
+    
+}
+
+@media only screen and (min-width: 599px) and (max-width: 766px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .nav-container ul{
+        height: auto;
+        display: flex;
+        gap: 5px;
+    }
+
+    .nav-container a{
+        padding: 10px;
+        font-size: 12px;
+    }
 }
