@@ -76,3 +76,15 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .nav-container ul{
+        height: auto;
+    }
+}
