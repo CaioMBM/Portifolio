@@ -32,3 +32,21 @@
     transform: rotate(135deg);;
     background-color: #FFF;
 }
+
+
+
+/* Media query */
+@media screen and (max-width: 389px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 459px) and (max-width: 598px) {}
+@media only screen and (min-width: 599px) and (max-width: 768px) {}
+@media only screen and (min-width: 767px) and (max-width: 992px) {}
+@media only screen and (min-width: 993px) and (max-width: 1180px) {
+    #linhas-divisorias{
+        gap: 10px;
+    }
+    
+    #linhas-divisorias > .linhas-extremos{
+        width: 330px;
+    }
+}
