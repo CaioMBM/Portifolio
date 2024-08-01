@@ -36,7 +36,19 @@
 
 
 /* Media query */
-@media screen and (max-width: 389px) {}
+@media screen and (max-width: 389px) {
+    #linhas-divisorias{
+        gap: 10px;
+    }
+
+    #linhas-divisorias > .linhas-extremos{
+        width: 90px;
+    }
+
+    #linhas-divisorias > #linha-meio{
+        width: 50px;
+    }
+}
 @media only screen and (min-width: 390px) and (max-width: 458px) {
     #linhas-divisorias{
         gap: 10px;
