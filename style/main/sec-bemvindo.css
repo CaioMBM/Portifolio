@@ -56,7 +56,28 @@ main{
 @media screen and (max-width: 389px) {}
 @media only screen and (min-width: 390px) and (max-width: 458px) {}
 @media only screen and (min-width: 459px) and (max-width: 598px) {}
-@media only screen and (min-width: 599px) and (max-width: 768px) {}
+@media only screen and (min-width: 599px) and (max-width: 768px) {
+    .flex-container{
+        gap: 20px;
+    }
+    
+    #sec-bem-vindo-text{
+        width: 270px;
+    }
+    
+    #sec-bem-vindo-text h1{
+        font-size: 50px;
+    }
+    
+    #sec-bem-vindo-text p{
+        font-size: 22px;
+    }
+    
+    #sec-bem-vindo-img img{
+        width: 230px;
+        height: 230px;
+    }
+}
 @media only screen and (min-width: 767px) and (max-width: 992px) {
     .flex-container{
         gap: 60px;
