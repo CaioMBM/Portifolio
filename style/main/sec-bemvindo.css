@@ -53,7 +53,34 @@ main{
 
 
 /* Media query */
-@media screen and (max-width: 389px) {}
+@media screen and (max-width: 389px) {
+    .flex-container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #sec-bem-vindo-text{
+        width: 255px;
+    }
+    
+    #sec-bem-vindo-text h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    #sec-bem-vindo-text p{
+        font-size: 22px;
+        line-height: 28px;
+        text-align: justify;
+    }
+    
+    #sec-bem-vindo-img img{
+        width: 230px;
+        height: 230px;
+    }
+}
 @media only screen and (min-width: 390px) and (max-width: 458px) {
     .flex-container{
         justify-content: center;
