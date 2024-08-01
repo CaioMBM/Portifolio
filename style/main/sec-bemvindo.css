@@ -49,3 +49,29 @@ main{
 #sec-bem-vindo-img img:hover{
     transform: scale(1.1);
 }
+
+
+
+/* Media query */
+@media screen and (max-width: 389px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 459px) and (max-width: 598px) {}
+@media only screen and (min-width: 599px) and (max-width: 768px) {}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .flex-container{
+        gap: 60px;
+    }
+    
+    #sec-bem-vindo-text{
+        width: 300px;
+    }
+    
+    #sec-bem-vindo-text h1{
+        font-size: 60px;
+    }
+    
+    #sec-bem-vindo-img img{
+        width: 280px;
+        height: 280px;
+    }
+}
