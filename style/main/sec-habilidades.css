@@ -68,7 +68,23 @@ img.hab-img{
 
 
 /* Media query */
-@media screen and (max-width: 389px) {}
+@media screen and (max-width: 389px) {
+    #sec-habilidade{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    div#hab-linguagens{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #fram-prot{
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+    }
+}
 @media only screen and (min-width: 390px) and (max-width: 458px) {
     #sec-habilidade{
         width: 100%;
