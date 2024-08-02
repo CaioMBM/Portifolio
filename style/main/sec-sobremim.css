@@ -43,7 +43,18 @@
 
 /* Media query */
 @media screen and (max-width: 389px) {}
-@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {
+    /* Caixa vermelha */
+    #sobremim-container{
+        width: 350px;
+    }
+
+    /* Caixa do parágrafo */
+    #sec-sobremim p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
 @media only screen and (min-width: 459px) and (max-width: 598px) {
     /* Caixa vermelha */
     #sobremim-container{
