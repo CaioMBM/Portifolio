@@ -70,7 +70,20 @@ img.hab-img{
 /* Media query */
 @media screen and (max-width: 389px) {}
 @media only screen and (min-width: 390px) and (max-width: 458px) {}
-@media only screen and (min-width: 459px) and (max-width: 598px) {}
+@media only screen and (min-width: 459px) and (max-width: 598px) {
+    #sec-habilidade{
+        width: 100%;
+    }
+
+    div#hab-linguagens{
+        display: flex;
+    }
+
+    #fram-prot{
+        gap: 80px;
+        margin-top: 50px;
+    }
+}
 @media only screen and (min-width: 599px) and (max-width: 768px) {
     #sec-habilidade{
         width: 100%;
@@ -81,7 +94,6 @@ img.hab-img{
     }
 
     #fram-prot{
-        display: flex;
         gap: 150px;
         margin-top: 50px;
     }
