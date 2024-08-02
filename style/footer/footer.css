@@ -82,3 +82,19 @@ span#footer-criador a{
 span#footer-criador a:hover{
     text-decoration: underline;
 }
+
+
+
+/* Media query */
+@media screen and (max-width: 389px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 459px) and (max-width: 598px) {}
+@media only screen and (min-width: 599px) and (max-width: 768px) {
+    footer{
+        padding: 50px 60px 20px 60px;
+    }
+
+    section#footer-container{
+        width: 100%;
+    }
+}
