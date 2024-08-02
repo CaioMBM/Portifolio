@@ -42,7 +42,19 @@
 
 
 /* Media query */
-@media screen and (max-width: 389px) {}
+@media screen and (max-width: 389px) {
+    /* Caixa vermelha */
+    #sobremim-container{
+        width: 300px;
+        padding: 20px 15px;
+    }
+
+    /* Caixa do parágrafo */
+    #sec-sobremim p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
 @media only screen and (min-width: 390px) and (max-width: 458px) {
     /* Caixa vermelha */
     #sobremim-container{
