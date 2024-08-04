@@ -19,17 +19,17 @@ main{
 #sec-bem-vindo-text h1{
     margin-bottom: 20px;
     font-size: 60px;
-    color: var(--site-titulo-subtitulo);
+    color: var(--laranja);
     font-weight: bold;
 }
 
 #sec-bem-vindo-text p{
     font-size: 25px;
-    color: var(--site-paragrafo);
+    color: var(--branco);
 }
 
 #sec-bem-vindo-text a{
-    color: var(--main-bemvindo-link);
+    color: var(--vermelho);
     text-decoration: none;
 }
 

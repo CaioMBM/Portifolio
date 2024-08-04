@@ -19,7 +19,7 @@
     gap: 30px;
 
     border-radius: 20px;
-    background-color: var(--sobremim-card);
+    background-color: var(--vermelho);
 }
 
 /* Caixa do título */
@@ -28,7 +28,7 @@
     text-align: center;
     text-transform: uppercase;
     border-bottom: 3px solid ;
-    color: var(--site-paragrafo);
+    color: var(--branco);
 }
 
 /* Caixa do parágrafo */
@@ -36,7 +36,7 @@
     letter-spacing: 2px;
     line-height: 20px;
     text-align: justify;
-    color: var(--site-paragrafo);
+    color: var(--branco);
 }
 
 

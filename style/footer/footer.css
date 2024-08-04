@@ -5,7 +5,7 @@ footer{
     flex-direction: column;
     gap: 30px;
     padding: 50px 0 20px 0;
-    background-color: var(--footer-fundo);
+    background-color: var(--preto);
 }
 
 section#footer-container{
@@ -17,7 +17,7 @@ section#footer-container{
 
 .icon{
     width: 10px;
-    color: #fff;
+    color: var(--branco);
 }
 
 /* Antes da linha divisória */
@@ -31,7 +31,7 @@ section#footer-container{
     margin-bottom: 40px;
     text-transform: uppercase;
     font-size: 20px;
-    color: var(--footer-titulo-subtitulo-link-icon);
+    color: var(--branco);
 }
 
 .engloba{
@@ -42,7 +42,7 @@ section#footer-container{
     text-decoration: none;
     font-size: 12px;
     letter-spacing: 1.5px;
-    color: var(--footer-titulo-subtitulo-link-icon);
+    color: var(--branco);
 }
 
 .engloba a:hover, .icon:hover{
@@ -51,7 +51,7 @@ section#footer-container{
 
 .icon{
     margin-right: 5px;
-    fill: var(--footer-titulo-subtitulo-link-icon);
+    fill: var(--branco);
 }
 
 
@@ -62,21 +62,21 @@ section#footer-container{
     width: 100%;
     margin-top: 60px;
     margin-bottom: 30px;
-    background-color: #fff;
+    background-color: var(--branco);
 }
 
 
 
 /* Depois da linha divisória */
 span#footer-criador{
-    color: var(--footer-titulo-subtitulo-link-icon);
+    color: var(--branco);
 }
 
 span#footer-criador a{
     margin-left: 2px;
     font-weight: bold;
     text-decoration: none;
-    color: var(--footer-titulo-subtitulo-link-icon);
+    color: var(--branco);
 }
 
 span#footer-criador a:hover{

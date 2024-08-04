@@ -6,24 +6,16 @@
 
 
     /* CORES */
+    --branco: #fff;
+    --preto: #000;
+    --laranja: #E9431F;
+    --vermelho: #A01313;
+
     --site-fundo: #040F11;
-    --site-titulo-subtitulo: #E9431F;
-    --site-paragrafo: #FFF;
 
     --navbar-fundo: #071A1E;
     --navbar-sublinhado: #AD3131;
-    --nav-link: #FFF;
-    --nav-link-hover: #E9431F;
 
-    --main-bemvindo-link: #A01313;
-    --main-titulo-subtitulo: #E9431F;
-    --main-paragrafo: #FFF;
-
-    --sobremim-card: #A01313;
-    --sobremim-titulo: #000;
-
-    --footer-titulo-subtitulo-link-icon: #FFF;
-    --footer-fundo: #000;
     --footer-gmail-hover: #DD0D00;
     --footer-whatsapp-hover: #04DD00;
     --footer-linkedin-hover: #0080DD;

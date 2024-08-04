@@ -10,27 +10,27 @@
 #linhas-divisorias > .linhas-extremos{
     width: 400px;
     height: 1.5px;
-    background-color: #FFF;
+    background-color: var(--branco);
 }
 
 #linhas-divisorias > #linha-meio{
     width: 220px;
     height: 1px;
-    background-color: #FFF;
+    background-color: var(--branco);
 }
 
 .linhas-x > .x1{
     width: 10px;
     height: 1px;
     transform: translateY(1px) rotate(45deg);;
-    background-color: #FFF;
+    background-color: var(--branco);
 }
 
 .linhas-x > .x2{
     width: 10px;
     height: 1px;
     transform: rotate(135deg);;
-    background-color: #FFF;
+    background-color: var(--branco);
 }
 
 

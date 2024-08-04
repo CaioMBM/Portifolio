@@ -13,9 +13,9 @@
 #proj-container-h1 > h1{
     margin: 0 0 30px 0;
     font-size: 35px;
-    border-bottom: 3px solid var(--main-titulo-subtitulo);
+    border-bottom: 3px solid var(--laranja);
     text-transform: uppercase;
-    color: var(--main-titulo-subtitulo);
+    color: var(--laranja);
 }
 
 .row{
@@ -38,5 +38,5 @@
 
 #sec-projetos p{
     font-size: 15px;
-    color: var(--site-paragrafo);
+    color: var(--branco);
 }

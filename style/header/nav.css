@@ -14,7 +14,7 @@
     text-transform: uppercase;
     font-size: 40px;
     font-family: var(--fonte);
-    color: var(--nav-link);
+    color: var(--branco);
 }
 
 .nav-container ul{
@@ -27,13 +27,13 @@
 .abrir-menu-hamburguer{
     display: none;
     font-size: 60px;
-    color: #fff;
+    color: var(--branco);
 }
 
 .fechar-menu-hamburguer{
     display: none;
     font-size: 30px;
-    color: #fff;
+    color: var(--branco);
 }
 
 .nav-container a{
@@ -41,12 +41,12 @@
     text-transform: uppercase;
     font-size: 15px;
     font-family: var(--fonte);
-    color: var(--nav-link);
+    color: var(--branco);
     transition: .3s;
 }
 
 .nav-container a:hover{
-    color:var(--nav-link-hover);
+    color:var(--laranja);
 }
 
 
