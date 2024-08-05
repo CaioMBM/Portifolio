@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 60px;
+}
+
+/* Div de quando o card está na esquerda da tela */
+.card-seta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Div de quando o card está na direita da tela */
+.seta-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+/* Caixa vermelha */
+.card{
+    width: 620px;
+    padding: 40px 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    border-radius: 20px;
+    background-color: var(--vermelho);
+}
+
+/* Caixa do título */
+.card h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid ;
+    color: var(--branco);
+}
+
+/* Caixa do parágrafo */
+.card p{
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: justify;
+    color: var(--branco);
+}
+
+/* Seta à direita do card */
+.seta-direita{
+    margin: 170px 500px 0 0;
+    font-size: 100px;
+    transform: rotate(90deg);
+    color: #fff;
+}
+
+/* Seta à esquerda do card */
+.seta-esquerda{
+    margin: 170px 0 0 500px;
+    font-size: 100px;
+    transform: rotate(-90deg);
+    color: #fff;
+}
