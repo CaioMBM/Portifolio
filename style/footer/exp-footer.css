@@ -20,6 +20,7 @@ section#footer-container{
     color: var(--branco);
 }
 
+
 /* Antes da linha divisória */
 .footer-content{
     display: flex;
@@ -55,7 +56,6 @@ section#footer-container{
 }
 
 
-
 /* Linha divisória */
 #footer-linha-divisoria{
     height: 1px;
@@ -64,7 +64,6 @@ section#footer-container{
     margin-bottom: 30px;
     background-color: var(--branco);
 }
-
 
 
 /* Depois da linha divisória */
