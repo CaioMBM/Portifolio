@@ -194,6 +194,62 @@
                 <p>Tenho 21 anos, atualmente estou cursando o último período do curso de Análise e Desenvolvimento de Sistemas na cidade onde moro, Recife, e sou co-fundador de um projeto de startup de tecnologia chamada “PD-Tech”. Minha jornada no front-end iniciou-se no 1º semestre de 2023 e desde então estou procurando aprender mais sobre a área, habilidades e tecnologias que possam me ajudar no desenvolvimento de meus códigos.</p>
             </div>
         </section>
+
+        <div id="linhas-divisorias">
+            <div class="linhas-extremos"></div>
+
+            <div class="linhas-x">
+                <div class="x1"></div>
+                <div class="x2"></div>
+            </div>
+
+            <div id="linha-meio"></div>
+
+            <div class="linhas-x">
+                <div class="x1"></div>
+                <div class="x2"></div>
+            </div>
+
+            <div class="linhas-extremos"></div>
+        </div>
+
+        <!-- CONTATO -->
+        <section id="sec-contato">
+            <h1>CONTATO</h1>
+            <div id="contato-container">
+                <form action="https://formsubmit.co/caiombmonteiro@gmail.com" method="post">
+                    <!-- nome -->
+                    <div>
+                        <label for="">Nome</label>
+                        <input type="text" name="name" placeholder="Digite aqui..." required>
+                    </div>
+
+                    <!-- e-mail -->
+                    <div>
+                        <label for="">E-mail</label>
+                        <input type="text" name="email" placeholder="Digite aqui..." required>
+                    </div>
+
+                    <!-- assunto -->
+                    <div>
+                        <label for="">Assunto</label>
+                        <input type="text" name="assunto" placeholder="Digite aqui..." required>
+                    </div>
+
+                    <!-- mensagem -->
+                    <div>
+                        <label for="">Mensagem</label>
+                        <textarea cols="30" rows="10" style="resize: none" name="mensagem" placeholder="Digite aqui..." required></textarea>
+                    </div>
+
+                    <button type="submit">ENVIAR</button>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">  <!-- Isso é para quando enviar a mensagem, aparecer como título da mensagem "Novo Contato!" -->
+                    <input type="hidden" name="_honey" style="display: none;">   <!-- Isso é para evitar que os enviados sejam enviados como spam -->
+                    <input type="hidden" name="_captcha" value="false">          <!-- Isso é para desabilitar o captcha após o envio do formulário  -->
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
