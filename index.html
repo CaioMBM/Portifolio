@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style/main/sec-habilidades.css">
     <link rel="stylesheet" href="style/main/sec-projetos.css">
     <link rel="stylesheet" href="style/main/sec-sobremim.css">
+    <link rel="stylesheet" href="style/main/sec-contato.css">
     <link rel="stylesheet" href="style/footer/footer.css">
 </head>
 <body>
@@ -215,31 +216,34 @@
 
         <!-- CONTATO -->
         <section id="sec-contato">
-            <h1>CONTATO</h1>
+            <div class="sec-contato-titulo">
+                <h1>CONTATO</h1>
+            </div>
+
             <div id="contato-container">
                 <form action="https://formsubmit.co/caiombmonteiro@gmail.com" method="post">
                     <!-- nome -->
-                    <div>
+                    <div class="contato-dupla">
                         <label for="">Nome</label>
                         <input type="text" name="name" placeholder="Digite aqui..." required>
                     </div>
 
                     <!-- e-mail -->
-                    <div>
+                    <div class="contato-dupla">
                         <label for="">E-mail</label>
                         <input type="text" name="email" placeholder="Digite aqui..." required>
                     </div>
 
                     <!-- assunto -->
-                    <div>
+                    <div class="contato-dupla">
                         <label for="">Assunto</label>
                         <input type="text" name="assunto" placeholder="Digite aqui..." required>
                     </div>
 
                     <!-- mensagem -->
-                    <div>
+                    <div class="contato-dupla">
                         <label for="">Mensagem</label>
-                        <textarea cols="30" rows="10" style="resize: none" name="mensagem" placeholder="Digite aqui..." required></textarea>
+                        <textarea rows="7" style="resize: none" maxlength="500" name="mensagem" placeholder="Digite aqui..." required></textarea>
                     </div>
 
                     <button type="submit">ENVIAR</button>
