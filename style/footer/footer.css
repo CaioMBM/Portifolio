@@ -141,3 +141,12 @@ span#footer-criador a:hover{
         width: 100%;
     }
 }
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+    footer{
+        padding: 50px 160px 20px 160px;
+    }
+
+    section#footer-container{
+        width: 100%;
+    }
+}
