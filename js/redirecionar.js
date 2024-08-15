@@ -32,3 +32,14 @@ function abrirRepositorioConversorMoedas(){
 function abrirProjetoConversorMoedas(){
     window.open("https://caiombm.github.io/html-css-jsUDEMY-2/")
 }
+
+
+// PROJETO - RECRIAR SITE 1
+// Leva para o repositório
+function abrirRepositorioRecriarSite(){
+    window.open("https://github.com/CaioMBM/Projeto-1")
+}
+
+function abrirProjetoRecriarSite(){
+    window.open("https://caiombm.github.io/Projeto-1/")
+}
