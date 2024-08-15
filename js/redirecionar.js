@@ -20,3 +20,15 @@ function abrirRepositorioCalculadoraIMC(){
 function abrirProjetoCalculadoraIMC(){
     window.open("https://caiombm.github.io/calculo-imc/")
 }
+
+
+// PROJETO - CONVERSOR DE MOEDAS
+// Leva para o repositório
+function abrirRepositorioConversorMoedas(){
+    window.open("https://github.com/CaioMBM/html-css-jsUDEMY-2")
+}
+
+// Leva para o projeto
+function abrirProjetoConversorMoedas(){
+    window.open("https://caiombm.github.io/html-css-jsUDEMY-2/")
+}
