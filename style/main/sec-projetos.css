@@ -48,7 +48,7 @@
     justify-content: center;
 }
 
- /* Foi precisso criar essa classe para esconder o modal porque a proprieda display já estava sendo usada na caixa do modal (.modal-container) */
+.modal-display{display: none;} /* Foi precisso criar essa classe para esconder o modal porque a proprieda display já estava sendo usada na caixa do modal (.modal-container) */
 
 
 /* modal-container */
