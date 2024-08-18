@@ -85,7 +85,25 @@ span#footer-criador a:hover{
 
 /* Media query */
 @media screen and (max-width: 389px) {}
-@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {
+    footer{
+        padding: 50px 30px 20px 30px;
+    }
+
+    section#footer-container{
+        width: 100%;
+    }
+
+    /* Antes da linha divisória */
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .footer-content > div{width: 200px;
+    }
+}
 @media only screen and (min-width: 459px) and (max-width: 598px) {
     footer{
         padding: 50px 30px 20px 30px;
