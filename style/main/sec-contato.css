@@ -97,7 +97,12 @@ form button:hover{
 /* Media query */
 @media screen and (max-width: 389px) {}
 @media only screen and (min-width: 390px) and (max-width: 458px) {}
-@media only screen and (min-width: 459px) and (max-width: 598px) {}
+@media only screen and (min-width: 459px) and (max-width: 598px) {
+    /* Caixa vermelha */
+    #contato-container{
+        width: 420px;
+    }
+}
 @media only screen and (min-width: 599px) and (max-width: 768px) {
     /* Caixa vermelha */
     #contato-container{
