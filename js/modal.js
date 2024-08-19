@@ -13,12 +13,12 @@ var tituloRecriando = document.getElementById("tituloRecriando");
 // Seleciona todos os elementos que possuem a classe 'modal-display'
 var modals         = document.querySelectorAll(".modal-display");
 var modalTelaLogin = modals[0];
-var modalIMC = modals[1];
+var modalIMC       = modals[1];
 
 // Seleciona todos os elementos que possuem a classe 'icon-modal-fechar'
 var fecharModal          = document.querySelectorAll(".icon-modal-fechar");
 var fecharModalTelaLogin = fecharModal[0]; 
-var fecharModalIMC = fecharModal[1]; 
+var fecharModalIMC       = fecharModal[1]; 
 
 
 
@@ -75,4 +75,22 @@ projetoIMC.addEventListener("click", function(){
 
         projetoRecriando.style.display = "none";
         tituloRecriando.style.display  = "none";
-})
+});
+
+// CÁLCULO IMC - Esconder modal
+fecharModalIMC.addEventListener("click", function(){
+        // Projeto respectivo
+        projetoIMC.style.display = "block";
+        tituloIMC.style.display  = "block";
+        modalIMC.style.display   = "none";
+
+        // Outros projetos
+        projetoTelaLogin.style.display = "block";
+        tituloTelaLogin.style.display  = "block";
+
+        projetoConversor.style.display = "block";
+        tituloConversor.style.display  = "block";
+
+        projetoRecriando.style.display = "block";
+        tituloRecriando.style.display  = "block";
+});
