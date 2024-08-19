@@ -98,7 +98,7 @@ fecharModalIMC.addEventListener("click", function(){
 });
 
 
-// TELA DE LOGIN - Conversor de Moedas
+// CONVERSOR DE MOEDAS - Exibir modal
 projetoConversor.addEventListener("click", function(){
         // Projeto respectivo
         projetoConversor.style.display = "none";
@@ -115,3 +115,21 @@ projetoConversor.addEventListener("click", function(){
         projetoRecriando.style.display = "none";
         tituloRecriando.style.display  = "none";
 });
+
+// CONVERSOR DE MOEDAS - Esconder modal
+fecharModalConversor.addEventListener("click", function(){
+        // Projeto respectivo
+        projetoConversor.style.display = "block";
+        tituloConversor.style.display  = "block";
+        modalConversor.style.display   = "none";
+
+        // Outros projetos
+        projetoTelaLogin.style.display = "block";
+        tituloTelaLogin.style.display  = "block";
+
+        projetoIMC.style.display = "block";
+        tituloIMC.style.display  = "block";
+
+        projetoRecriando.style.display = "block";
+        tituloRecriando.style.display  = "block";
+})
