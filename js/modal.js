@@ -163,6 +163,12 @@ projetoRecriando.addEventListener("click", function(){
         tituloRecriando.style.display  = "none";
         modalRecriando.style.display   = "block";
 
+        // Suavizando ao abrir o modal
+        setTimeout(function(){
+                modalRecriando.classList.add('exibir');
+                modalRecriando.classList.remove('esconder');
+        }, 0);
+
         // Outros projetos
         projetoTelaLogin.style.display = "none";
         tituloTelaLogin.style.display  = "none";
