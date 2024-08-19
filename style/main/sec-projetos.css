@@ -164,3 +164,35 @@
     background-color: var(--vermelho);
     transform: scale(1.05);
 }
+
+
+
+/* Media query */
+@media screen and (max-width: 389px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 459px) and (max-width: 598px) {}
+@media only screen and (min-width: 599px) and (max-width: 768px) {
+    /* modal-container */
+    .modal-container{
+        width: 550px;
+        padding: 15px 30px;
+    }
+
+    /* modal-content */
+    .modal-content{
+        gap: 25px;
+    }
+
+    /* modal-sobre-tec */
+    .modal-sobre-tec p{
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /* modal-tec */
+    .modal-tec h3{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
