@@ -37,7 +37,7 @@ projetoTelaLogin.addEventListener("click", function(){
         setTimeout(function(){
                 modalTelaLogin.classList.add('exibir');
                 modalTelaLogin.classList.remove('esconder');
-        }, 0)
+        }, 0);
 
 
         // Outros projetos
@@ -76,6 +76,12 @@ projetoIMC.addEventListener("click", function(){
         projetoIMC.style.display = "none";
         tituloIMC.style.display  = "none";
         modalIMC.style.display   = "block";
+
+        // Suavizando ao abrir o modal
+        setTimeout(function(){
+                modalIMC.classList.add('exibir');
+                modalIMC.classList.remove('esconder');
+        }, 0);
 
         // Outros projetos
         projetoTelaLogin.style.display = "none";
