@@ -15,12 +15,14 @@ var modals         = document.querySelectorAll(".modal-display");
 var modalTelaLogin = modals[0];
 var modalIMC       = modals[1];
 var modalConversor = modals[2];
+var modalRecriando = modals[3];
 
 // Seleciona todos os elementos que possuem a classe 'icon-modal-fechar'
 var fecharModal          = document.querySelectorAll(".icon-modal-fechar");
 var fecharModalTelaLogin = fecharModal[0]; 
 var fecharModalIMC       = fecharModal[1]; 
 var fecharModalConversor = fecharModal[2]; 
+var fecharModalRecriando = fecharModal[3]; 
 
 
 
@@ -132,4 +134,23 @@ fecharModalConversor.addEventListener("click", function(){
 
         projetoRecriando.style.display = "block";
         tituloRecriando.style.display  = "block";
-})
+});
+
+
+// RECRIANDO SITE - Exibir modal
+projetoRecriando.addEventListener("click", function(){
+        // Projeto respectivo
+        projetoRecriando.style.display = "none";
+        tituloRecriando.style.display  = "none";
+        modalRecriando.style.display   = "block";
+
+        // Outros projetos
+        projetoTelaLogin.style.display = "none";
+        tituloTelaLogin.style.display  = "none";
+
+        projetoConversor.style.display = "none";
+        tituloConversor.style.display  = "none";
+
+        projetoIMC.style.display = "none";
+        tituloIMC.style.display  = "none";
+});
