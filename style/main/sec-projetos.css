@@ -169,7 +169,60 @@
 
 /* Media query */
 @media screen and (max-width: 389px) {}
-@media only screen and (min-width: 390px) and (max-width: 458px) {}
+@media only screen and (min-width: 390px) and (max-width: 458px) {
+    /* modal-container */
+    .modal-container{
+        width: 350px;
+        height: auto;
+        gap: 40px;
+        padding: 15px 20px;
+    }
+
+    .modal-container h2{
+        font-size: 25px;
+    }
+
+    /* icon-modal-fechar */
+    .icon-modal-fechar{
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    /* modal-content */
+    .modal-content{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    /* modal-img-data */
+    .modal-img-data{
+        margin: auto;
+    }
+
+    /* modal-sobre-tec */
+    .modal-sobre-tec p{
+        width: 100%;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    /* modal-tec */
+    .modal-tec h3{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* modal-buttons */
+    .modal-buttons{
+        display: flex;
+        gap: 20px;
+    }
+    .modal-container-btn{
+        width: 125px;
+        padding: 10px 4px;
+    }
+}
 @media only screen and (min-width: 459px) and (max-width: 598px) {
     /* modal-container */
     .modal-container{
