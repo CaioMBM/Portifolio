@@ -120,6 +120,12 @@ projetoConversor.addEventListener("click", function(){
         tituloConversor.style.display  = "none";
         modalConversor.style.display   = "block";
 
+        // Suavizando ao abrir o modal
+        setTimeout(function(){
+                modalConversor.classList.add('exibir');
+                modalConversor.classList.remove('esconder');
+        }, 0);
+
         // Outros projetos
         projetoTelaLogin.style.display = "none";
         tituloTelaLogin.style.display  = "none";
