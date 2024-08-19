@@ -33,6 +33,13 @@ projetoTelaLogin.addEventListener("click", function(){
         tituloTelaLogin.style.display  = "none";
         modalTelaLogin.style.display   = "block";
 
+        // Suavizando ao abrir o modal
+        setTimeout(function(){
+                modalTelaLogin.classList.add('exibir');
+                modalTelaLogin.classList.remove('esconder');
+        }, 0)
+
+
         // Outros projetos
         projetoIMC.style.display = "none";
         tituloIMC.style.display  = "none";

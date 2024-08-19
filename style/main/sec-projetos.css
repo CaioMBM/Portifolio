@@ -50,6 +50,16 @@
 
 .modal-display{display: none;} /* Foi precisso criar essa classe para esconder o modal porque a proprieda display já estava sendo usada na caixa do modal (.modal-container) */
 
+/* Suavidade no modal */
+.esconder{
+    opacity: 0;
+    width: 0;
+}
+
+.exibir{
+    opacity: 1;
+    transition: 1s;
+}
 
 /* modal-container */
 .modal-container{
