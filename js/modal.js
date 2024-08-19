@@ -154,3 +154,21 @@ projetoRecriando.addEventListener("click", function(){
         projetoIMC.style.display = "none";
         tituloIMC.style.display  = "none";
 });
+
+// RECRIANDO SITE - Esconder modal
+fecharModalRecriando.addEventListener("click", function(){
+        // Projeto respectivo
+        projetoRecriando.style.display = "block";
+        tituloRecriando.style.display  = "block";
+        modalRecriando.style.display   = "none";
+
+        // Outros projetos
+        projetoTelaLogin.style.display = "block";
+        tituloTelaLogin.style.display  = "block";
+
+        projetoConversor.style.display = "block";
+        tituloConversor.style.display  = "block";
+
+        projetoIMC.style.display = "block";
+        tituloIMC.style.display  = "block";
+})
