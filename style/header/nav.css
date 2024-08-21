@@ -1,5 +1,6 @@
 @import url(../root.css);
 
+/* Caixa da nav */
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -9,6 +10,7 @@
     background-color: var(--navbar-fundo);
 }
 
+/* Título da nav */
 .nav-container h1{
     text-decoration: none;
     text-transform: uppercase;
@@ -17,6 +19,7 @@
     color: var(--branco);
 }
 
+/* Menu hamburguer */
 .abrir-menu-hamburguer{
     display: none;
     font-size: 50px;
@@ -29,13 +32,13 @@
     color: var(--branco);
 }
 
+/* Lista da nav */
 .nav-container ul{
     display: flex;
     align-items: center;
     gap: 40px;
     height: 110px;
 }
-
 
 .nav-container a{
     text-decoration: none;
@@ -54,13 +57,14 @@
 
 /* MEDIA QUERY */
 @media screen and (max-width: 389px) {
-    /* MENU HAMBURGUER */
+    /* Caixa da nav */
     .nav-container{
         flex-direction: column;
         padding: 20px 0 0 0;
         border-radius: 0;
     }
 
+    /* Caixa que contem Título + Menu hamburguer*/
     .nav-name-icon{
         margin-bottom: 20px;
         width: 100%;
@@ -69,10 +73,12 @@
         align-items: center;
     }
 
+    /* Menu hamburguer */
     .abrir-menu-hamburguer{
         display: block;
     }
 
+    /* Lista da nav */
     .nav-container ul{
         display: none;
         height: 100%;
@@ -100,13 +106,14 @@
 }
 
 @media only screen and (min-width: 390px) and (max-width: 458px) {
-    /* MENU HAMBURGUER */
+    /* Caixa da nav */
     .nav-container{
         flex-direction: column;
         padding: 20px 0 0 0;
         border-radius: 0;
     }
 
+    /* Caixa que contem Título + Menu hamburguer*/
     .nav-name-icon{
         margin-bottom: 20px;
         width: 100%;
@@ -115,10 +122,12 @@
         align-items: center;
     }
 
+    /* Menu hamburguer */
     .abrir-menu-hamburguer{
         display: block;
     }
 
+    /* Lista da nav */
     .nav-container ul{
         display: none;
         height: 100%;
@@ -146,12 +155,14 @@
 }
 
 @media only screen and (min-width: 459px) and (max-width: 598px) {
+    /* Caixa da nav */
     .nav-container{
         flex-direction: column;
         gap: 20px;
         padding: 10px;
     }
 
+    /* Lista da nav */
     .nav-container ul{
         flex-wrap: wrap;
         justify-content: center;
@@ -160,12 +171,14 @@
 }
 
 @media only screen and (min-width: 599px) and (max-width: 766px) {
+    /* Caixa da nav */
     .nav-container{
         flex-direction: column;
         gap: 20px;
         padding: 30px;
     }
 
+    /* Lista da nav */
     .nav-container ul{
         height: auto;
         display: flex;
@@ -179,12 +192,14 @@
 }
 
 @media only screen and (min-width: 767px) and (max-width: 992px) {
+    /* Caixa da nav */
     .nav-container{
         flex-direction: column;
         gap: 20px;
         padding: 30px;
     }
 
+    /* Lista da nav */
     .nav-container ul{
         height: auto;
     }
